@@ -1,0 +1,37 @@
+@media screen and (max-width: 768px) {
+  #home {
+    height: 350px;
+  }
+  #home h1 {
+    font-size: 1.5rem;
+  }
+  #home p {
+    font-size: 1.2rem;
+  }
+  #services {
+    flex-direction: column;
+  }
+  #services .box {
+    margin: 20px;
+  }
+  #client-section {
+    flex-direction: column;
+  }
+  #clients {
+    flex-direction: column;
+  }
+  #contact-box {
+    width: 90%;
+    margin: 20px;
+  }
+  #contact-box form {
+    padding: 20px;
+  }
+  #contact-box label {
+    font-size: 1.2rem;
+  }
+  #contact-box input,
+  #contact-box textarea {
+    font-size: 1.2rem;
+  }
+}
